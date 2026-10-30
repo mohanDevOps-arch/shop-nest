@@ -25,7 +25,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
-            🛍️ E-Commerce
+            🛍️ ShopNest
           </Link>
 
           <form onSubmit={handleSearch} className="header-search">

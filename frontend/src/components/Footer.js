@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-content">
         <div>
-          <div className="logo" style={{ color: 'white' }}>E-Commerce</div>
+          <div className="logo" style={{ color: 'white' }}>ShopNest</div>
           <p style={{ marginTop: '0.5rem', maxWidth: '280px' }}>
             Quality products across electronics, fashion, home and more, delivered to your door.
           </p>
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container footer-bottom">
-        © {new Date().getFullYear()} E-Commerce Store. All rights reserved.
+        © {new Date().getFullYear()} ShopNest. All rights reserved.
       </div>
     </footer>
   );
